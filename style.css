@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+    font-family: 'Limelight', cursive;
+}
+
+img{
+    border-radius: 50%;
+}
+
+#welcome{
+     background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%);
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+}
+
+#bio{
+    background:linear-gradient(#e66465, #9198e5); 
+}
+
+.menu{
+    list-style: none;
+    position: absolute;
+    font-family: 'Limelight', cursive;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links{
+    float:left;
+    color: darkmagenta;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-family: inherit;
+    
+}
+
+.links:hover{
+    background-color: darksalmon;
+}
